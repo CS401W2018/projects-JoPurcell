@@ -8,3 +8,6 @@ p {
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html {
+    background-color: bisque;
+}
