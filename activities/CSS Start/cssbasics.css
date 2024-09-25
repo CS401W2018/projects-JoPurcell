@@ -1,13 +1,17 @@
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-p {
-    color: brown;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 html {
     background-color: bisque;
 }
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main p {
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
