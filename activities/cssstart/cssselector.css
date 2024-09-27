@@ -3,14 +3,18 @@ html {
 }
 
 h1, h2 {
-    color: chocolate
+    color: red;
 }
+
 .first {
-    color: chartreuse;
+    color: brown;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #poem {
-    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.bold {
+    font-weight: 500;
+}
