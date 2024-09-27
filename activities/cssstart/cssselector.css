@@ -2,6 +2,9 @@ html {
     background-color: cornflowerblue;
 }
 
+h1, h2 {
+    color: chocolate
+}
 .first {
     color: chartreuse;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
