@@ -1,0 +1,15 @@
+html {
+    background-color: rgb(15, 1, 120);
+}
+
+a {
+    color: black
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+h1, h2 {
+    font-family: fantasy;
+}
