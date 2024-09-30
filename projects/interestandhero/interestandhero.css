@@ -1,9 +1,12 @@
 html {
     background-color: skyblue;
+    color: rgb(8, 74, 91);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-span
+span {
+    font-style: italic;
+}
 
 a {
     color: rgb(2, 48, 71);
@@ -22,13 +25,12 @@ nav {
     color: indigo;
 }
 
-p {
-    color: rgb(34, 106, 143);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.basic {
+    color: rgb(135, 89, 173);
 }
 
 .mindful {
-    color: brown;
+    color: indigo;
     font-family: fantasy;
 }
 
