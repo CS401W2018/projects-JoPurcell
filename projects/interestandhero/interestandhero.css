@@ -1,7 +1,11 @@
 html {
     background-color: skyblue;
-    color: rgb(8, 74, 91);
+}
+
+body {
+    color: rgb(6, 5, 53);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 span {
@@ -26,12 +30,13 @@ nav {
 }
 
 .basic {
-    color: rgb(135, 89, 173);
+    color: rgb(122, 76, 159);
 }
 
 .mindful {
     color: indigo;
     font-family: fantasy;
+    font-size: large;
 }
 
 #box {
