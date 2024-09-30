@@ -1,21 +1,37 @@
 html {
-    background-color: rgb(159, 79, 79);
+    background-color: skyblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+span
+
 a {
-    color: indigo;
+    color: rgb(2, 48, 71);
 }
 
 a:hover {
-    color: black;
+    color: rgb(255, 183, 3);
 }
 
 h1, h2, h3 {
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;     
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: indigo;
 }
 
 nav {
     color: indigo;
 }
 
-p
+p {
+    color: rgb(2, 48, 71);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mindful {
+    color: brown;
+    font-family: fantasy;
+}
+
+#box {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
