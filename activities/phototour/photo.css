@@ -4,16 +4,18 @@ h1, h2 {
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(turtlebg.png);
+    background-image: url(backgroundimg2.png);
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 nav a {
-    color: blue;
+    color: maroon;
 }
 
 .current {
-    color: red;
+    color: purple;
 }
 
+.list {
+    list-style-image: url(icon.png);
+}
