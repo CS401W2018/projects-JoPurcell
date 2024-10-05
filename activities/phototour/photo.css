@@ -4,7 +4,9 @@ h1, h2 {
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(turtlebg.png)
+    background-image: url(turtlebg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 nav a {
