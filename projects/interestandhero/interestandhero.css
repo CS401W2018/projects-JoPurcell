@@ -20,6 +20,10 @@ a:hover {
     color: rgb(255, 183, 3);
 }
 
+.current {
+    color: rgb(122, 76, 159);
+}
+
 h1, h2, h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: indigo;
