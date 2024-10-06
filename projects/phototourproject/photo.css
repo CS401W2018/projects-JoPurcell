@@ -1,10 +1,12 @@
 h1, h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(76, 23, 23);
+    font-family: fantasy;
 }
 
 body {
     background: url(greenbg.png);
-    font: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(11, 40, 40);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav a {
