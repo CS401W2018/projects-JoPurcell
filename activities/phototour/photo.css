@@ -17,5 +17,5 @@ nav a {
 }
 
 .list {
-    list-style-image: url(icon.png);
+    list-style-type: square;
 }

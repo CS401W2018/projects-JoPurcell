@@ -1,0 +1,21 @@
+h1, h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(backgroundimg2.png);
+    background-repeat: no-repeat;
+}
+
+nav a {
+    color: maroon;
+}
+
+.current {
+    color: purple;
+}
+
+.list {
+    list-style-type: square;
+}
