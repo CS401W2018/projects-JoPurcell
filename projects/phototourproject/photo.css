@@ -3,19 +3,22 @@ h1, h2 {
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(backgroundimg2.png);
-    background-repeat: no-repeat;
+    background: url(greenbg.png);
+    font: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav a {
-    color: maroon;
+    color: brown;
 }
 
 .current {
-    color: purple;
+    color: blue;
 }
 
 .list {
-    list-style-type: square;
+    list-style-image: url(hibiscus.png);
+}
+
+#flag {
+    background: url(flag.png) no-repeat top right;
 }
