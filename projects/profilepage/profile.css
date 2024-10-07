@@ -1,0 +1,20 @@
+.current {
+    color: red;
+}
+
+h1, h2 {
+    font-family: fantasy;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+blockquote {
+    font-family: cursive;
+}
+
+#deep {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
