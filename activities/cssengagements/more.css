@@ -1,9 +1,10 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:cadetblue;
 }
 
 header {
-    background-color: blue;
+    background-color: orangered;
     margin: auto auto 20px 20px;
     padding: 20px 20px 20px 20px;
     text-align: center;
@@ -11,14 +12,16 @@ header {
 }
 
 nav {
-    background-color: bisque;
-    border: 3px solid dodgerblue;
+    background-color: orange;
+    border: 3px solid black;
     margin: 20px auto 50px 20px;
 }
 
 #wrapper {
-    width: 700px;
+    background-color: aqua;
+    border: 7px solid black;
     margin: 0 auto;
+    width: 700px;
 }
 
 figure {
