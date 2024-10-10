@@ -1,11 +1,27 @@
-h1, h2 {
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: blue;
+    margin: auto auto 20px 20px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    width: 300px;
+}
+
+nav {
     background-color: bisque;
     border: 3px solid dodgerblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 30px auto;
+    margin: 20px auto 50px 20px;
 }
 
 #wrapper {
     width: 700px;
     margin: 0 auto;
+}
+
+figure {
+    border: 3px solid red;
+    width: 91px;
 }
