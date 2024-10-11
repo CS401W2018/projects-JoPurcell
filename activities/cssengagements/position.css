@@ -1,5 +1,23 @@
 body {
+    background-color: bisque;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: aqua;
+    border: 3px solid red;
+    padding: 10px 30px;
+}
+nav a:hover {
+    color: firebrick;
+    background-color: blue;
+}
+nav li {
+    display: inline;
+}
+
+nav i {
+    display: block;
 }
 
 h1, h2, h3 {
@@ -8,5 +26,10 @@ h1, h2, h3 {
 
 #picture {
     border: 2px solid black;
+    float: right;
     width: 250px;
+}
+
+.end {
+    clear: both;
 }
