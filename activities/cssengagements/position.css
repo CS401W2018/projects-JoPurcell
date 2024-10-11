@@ -1,0 +1,12 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: fantasy;
+}
+
+#picture {
+    border: 2px solid black;
+    width: 250px;
+}
