@@ -1,0 +1,39 @@
+body {
+    background-color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    font-family: fantasy;
+    text-align: center;
+    background-color: ;
+}
+
+h1, h2, h3 {
+    font-family: fantasy;
+}
+
+nav a {
+    background-color: yellow;
+    color: blue;
+    display: block;
+    margin: 0 40px 5px 0;
+    padding: 10px 25px;
+}
+
+nav a:hover {
+    background-color: red;
+    color: yellow;
+}
+
+nav li {
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.end {
+    clear: both;
+}
