@@ -9,7 +9,7 @@ body {
 header {
     border: 5px ridge magenta;
     border-radius: 20px;
-    box-shadow: 5px 5px 0 0 yellowgreen;
+    box-shadow: 5px 5px 0 0 darkslateblue;
     padding: 5px auto 5px auto;
     margin: auto;
     text-align: center;
@@ -30,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #3e156c;
+    background-color: #471c78;
     color: yellow;
 }
 
@@ -44,8 +44,10 @@ nav ul {
 
 #wrapper {
     background-color: #471c78;
+    border: 5px solid black;
+    border-radius: 15px;
     margin: 0 auto;
-    width: 850px;
+    max-width: 850px;
 }
 
 #picture {
