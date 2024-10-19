@@ -20,16 +20,30 @@ aside {
     width: 300px;
 }
 
+
+
 .bucket {
-    display: flex;
-    flex-flow: row wrap;
-    float: right;
+    display: inline;
 }
 
 .pictures {
-    border: 2px solid black;
-    font-style: italic;
+    align-items: center;
+    border: 3px solid black;
+    box-shadow: 5px 5px 3px 0px;
+    display: flex;
+    float: right;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: 190px;
     width: 150px;
+}
+
+figcaption {
+    background-color: bisque;
+    width: 150px;
+}
+figcaption p {
+    font-style: italic;
 }
 
 .end {
@@ -52,8 +66,17 @@ nav a {
     padding: 10px 10px;
 }
 
-a:hover {
+nav a:hover {
     background-color: azure;
     color: purple;
     padding: 10px 10px;
+}
+
+footer a {
+    display: block;
+}
+#long {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
 }
