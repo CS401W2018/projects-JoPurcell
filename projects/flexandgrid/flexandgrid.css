@@ -15,29 +15,28 @@ aside {
     background-color: gray;
     display: block;
     font-style: italic;
-    margin-left: 5px;
-    padding-left: 5px;
     width: 300px;
 }
 
+
 .bucket {
-    display: inline;
+    display: block;
 }
 
 .pictures {
-    align-items: center;
     border: 3px solid black;
     box-shadow: 5px 5px 3px 0px;
     display: flex;
     float: right;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    margin-left: 190px;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    margin-left: 5px;
     width: 150px;
 }
 
 figcaption {
     background-color: bisque;
+    text-align: center;
     width: 150px;
 }
 
