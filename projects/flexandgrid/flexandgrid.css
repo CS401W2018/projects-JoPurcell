@@ -22,8 +22,7 @@ aside {
     align-content: space-evenly;
     display: flex;
     flex-flow: column wrap;
-    align-self: flex-start;
-    float: left;
+    float: left;    
     margin: 15px 10px 15px 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -34,13 +33,12 @@ aside {
 }
 
 .pictures {
-    align-items: right;
     border: 3px solid black;
     box-shadow: 5px 5px 3px 0px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     float: right;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 150px;
 }
 
