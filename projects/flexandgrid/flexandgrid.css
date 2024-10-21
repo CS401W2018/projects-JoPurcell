@@ -18,6 +18,12 @@ aside {
     width: 300px;
 }
 
+#beside {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 5px;
+    padding-left: 5px;
+}
 
 .bucket {
     display: block;
@@ -29,7 +35,6 @@ aside {
     display: flex;
     float: right;
     flex-flow: column wrap;
-    justify-content: flex-start;
     margin-left: 5px;
     width: 150px;
 }
