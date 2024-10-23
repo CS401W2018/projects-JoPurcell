@@ -13,8 +13,7 @@ header h1 {
 }
 
 nav {
-    background-color: burlywood;
-    display: flex;
+    display: none;
 }
 
 nav a {

@@ -15,6 +15,7 @@ header h1 {
 nav {
     background-color: burlywood;
     display: flex;
+    justify-content: center;
 }
 
 nav a {
