@@ -21,7 +21,7 @@ nav {
 nav a {
     color: black;
     display: block;
-    padding: 4px 5px;
+    padding: 10px 50px;
     text-align: center;
     text-decoration: none;
 }
@@ -37,6 +37,7 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 5px;
 }
@@ -52,6 +53,18 @@ body {
     width: 100%;
 }
 
-@media only screen and (max-width: 700px) {
-    
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        border-bottom: thin solid black;
+    }
+    .card {
+        margin: 10px;
+        width: 100%;
+    }
+    .main-card {
+        order: -1;
+    }
 }
