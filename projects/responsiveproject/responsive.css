@@ -3,9 +3,9 @@ h1, h2, h3 {
 }
 
 aside {
+    background-color: darkgray;
     display: block;
-    float: right;
-    width: 250px;
+    width: 300px;
 }
 
 aside img {
@@ -16,10 +16,10 @@ aside img {
     align-content: space-evenly;
     display: flex;
     flex-flow: column wrap;
-    float: right;    
+    float: left; 
     margin: 15px 10px 15px 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 figcaption {
@@ -62,7 +62,7 @@ body {
 }
 
 .container {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     gap: 20px;
     padding: 5px;
@@ -71,8 +71,9 @@ body {
 .card {
     border: 2px solid white;
     box-shadow: 5px 2px 8px black;
-    flex-flow: column nowrap;
-    float: left;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    float: right;
     justify-content: space-between;
     margin-left: 5px;
     padding: 5px 10px;
@@ -81,6 +82,10 @@ body {
 
 .card img {
     width: 100%;
+}
+
+.main-card {
+    order: -4;
 }
 
 .end {
