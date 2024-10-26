@@ -2,6 +2,35 @@ h1, h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+aside {
+    background-color: darkgray;
+    display: block;
+    width: 300px;
+}
+
+aside img {
+    width: 250px;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+#beside {
+    align-content: space-around;
+    display: flex;
+    flex-flow: column wrap;
+    float: right; 
+    margin: auto 15px auto 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+figcaption {
+    font-size: small;
+    font-style: italic;
+}
+
 header {
     background-color: blanchedalmond;
     border: 3px dashed black;
@@ -9,19 +38,27 @@ header {
 }
 
 header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
 }
 
 nav {
-    display: none;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
 }
 
 nav a {
     color: black;
     display: block;
-    padding: 4px 5px;
+    padding: 10px 50px;
     text-align: center;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 body {
@@ -29,18 +66,30 @@ body {
 }
 
 .container {
-    display: flex;
+    display: block;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 5px;
 }
 
 .card {
-    border: 2px solid black;
-    box-shadow: 5px 5px 4px rgb(75, 75, 110);
-    margin-left: 5px;
+    border: 2px solid white;
+    box-shadow: 5px 2px 8px black;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    float: left;
+    gap: 30px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px 5px;
     width: 250px;
 }
 
 .card img {
     width: 100%;
+}
+
+.end {
+    clear: both;
 }
