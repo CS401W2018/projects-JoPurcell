@@ -4,8 +4,27 @@ h1, h2, h3 {
 
 aside {
     display: block;
-    float: left;
+    float: right;
     width: 250px;
+}
+
+aside img {
+    width: 250px;
+}
+
+#beside {
+    align-content: space-evenly;
+    display: flex;
+    flex-flow: column wrap;
+    float: right;    
+    margin: 15px 10px 15px 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+figcaption {
+    font-size: small;
+    font-style: italic;
 }
 
 header {
@@ -15,6 +34,7 @@ header {
 }
 
 header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
 }
 
@@ -51,31 +71,36 @@ body {
 .card {
     border: 2px solid white;
     box-shadow: 5px 2px 8px black;
+    flex-flow: column nowrap;
+    float: left;
+    justify-content: space-between;
     margin-left: 5px;
     width: 250px;
-}
-
-.end {
-    clear: both;
 }
 
 .card img {
     width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+.end {
+    clear: both;
+}
+
+@media only screen and (max-width: 700px) {
     nav {
         flex-direction: column;
     }
     nav a {
         border-bottom: thin solid black;
+        text-decoration: underline;
     }
     .card {
         margin: 10px;
         width: 100%;
     }
-    /*This is to move Anya's card to be the last card. I was thinking the parents should be the first two.*/
-    .last-card {
-        order: 3;
+
+    aside {
+        width: 100%;
     }
+
 }
