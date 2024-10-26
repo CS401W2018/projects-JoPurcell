@@ -74,7 +74,8 @@ body {
         margin: 10px;
         width: 100%;
     }
-    .second-card {
-        order: ;
+    /*This is to move Anya's card to be the last card. I was thinking the parents should be the first two.*/
+    .last-card {
+        order: 3;
     }
 }
