@@ -5,6 +5,7 @@ h1, h2, h3 {
 aside {
     display: block;
     float: left;
+    width: 250px;
 }
 
 header {
@@ -48,8 +49,8 @@ body {
 }
 
 .card {
-    border: 2px solid black;
-    box-shadow: 5px 5px 4px rgb(75, 75, 110);
+    border: 2px solid white;
+    box-shadow: 5px 2px 8px black;
     margin-left: 5px;
     width: 250px;
 }
