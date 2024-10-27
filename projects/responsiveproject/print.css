@@ -10,6 +10,10 @@ footer {
     display: none;
 }
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h1, h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,6 +34,7 @@ aside h3 {
 
 #beside {
     align-content: space-around;
+    align-items: end;
     display: flex;
     flex-flow: column wrap;
     float: right; 
@@ -41,10 +46,6 @@ aside h3 {
 figcaption {
     font-size: small;
     font-style: italic;
-}
-
-body {
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
