@@ -16,16 +16,18 @@ body {
 
 h1, h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 aside {
     background-color: darkgray;
     display: block;
-    width: 300px;
+    float: right;
+    width: 200px;
 }
 
 aside img {
-    width: 250px;
+    width: 100px;
 }
 
 aside h3 {
@@ -34,10 +36,8 @@ aside h3 {
 
 #beside {
     align-content: space-around;
-    align-items: end;
     display: flex;
     flex-flow: column wrap;
-    float: right; 
     margin: auto 15px auto 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -50,7 +50,6 @@ figcaption {
 
 .container {
     display: block;
-    flex-wrap: wrap;
     gap: 20px;
     padding: 5px;
 }
@@ -66,7 +65,7 @@ figcaption {
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 5px 5px;
-    width: 250px;
+    width: 100px;
 }
 
 .card img {
