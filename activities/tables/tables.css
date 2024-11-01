@@ -13,3 +13,16 @@ body {
     border: thin solid black;
     padding: 5px;
 }
+
+.information tfoot, .information thead {
+    background-color: red;
+    color: beige;
+}
+
+.information tbody tr:nth-child(even){
+    background-color: bisque;
+}
+
+.information tbody tr:nth-child(odd) {
+    background-color: gold;
+}
