@@ -2,3 +2,14 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.information {
+    border: thin solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+
+.information td, .information th {
+    border: thin solid black;
+    padding: 5px;
+}
