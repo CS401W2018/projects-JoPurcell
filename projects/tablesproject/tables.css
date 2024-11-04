@@ -27,8 +27,8 @@ nav a {
 aside {
     background-color: white;
     display: block;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 aside h2 {
@@ -41,7 +41,11 @@ aside h2 {
     float: right;
     justify-content: center;
     margin: auto;
-    width: 250px;
+    width: 350px;
+}
+
+.information caption {
+    background-color: blue;
 }
 
 .information {
@@ -63,7 +67,7 @@ aside h2 {
 }
 
 .information tfoot td {
-    background-color: blue;
+    background-color: gray;
     font-style: italic;
 }
 
@@ -82,4 +86,26 @@ aside h2 {
 
 .end {
     clear: both;
+}
+
+@media only screen and (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        border-bottom: thin solid black;
+        text-align: center;
+        text-decoration: underline;
+    }
+ 
+    aside {
+        background-color: white;
+        margin: 5px 5px 10px 5px;
+        width: 100%;
+    }
+
+    .information {
+        width: 100%;
+    }
 }
