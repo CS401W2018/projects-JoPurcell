@@ -19,17 +19,31 @@
     </nav>
     <main>
         <form action="processing.html" method="post">
-            First Name: <input type="text" name="first"><br>
-            Last Name: <input type="text" name="last"><br>
-            Password: <input type="text" name="pass"><br>
+            First Name: <input type="text" name="first" placeholder="First Name" required><br>
+            Last Name: <input type="text" name="last" placeholder="Last Name" required><br>
+            Password: <input type="password" name="pass" required><br>
+            <input type="checkbox" name="check"> Remember Me <br>
+            Grade: <br>
+            <input type="radio" name="grade" value="Freshman">Freshman <br>
+            <input type="radio" name="grade" value="Sophomore">Sophomore <br>
+            <input type="radio" name="grade" value="Junior">Junior <br>
+            <input type="radio" name="grade" value="Senior">Senior <br>
+            <select name="state">
+                <option value="blank"></option>
+                <option value="hawaii">Hawaii</option>
+                <option value="california">California</option>
+                <option value="utah">Utah</option>
+                <option value="florida">Florida</option>
+            </select>
+            <br>
             <input type="submit">
         </form>
         <h3>Engagement Questions</h3>
         <ol>
             <li>The form tag has an "action" attribute. What does it do?</li>
-                <p>Action attribute can help us submit the form to the server.</p>
+                <p>Action attribute can help us define what to do with the submitted form. It allows us to tell the form what to do with the information provided in the form.</p>
             <li>The form tag has a "method" attribute. What does it do?</li>
-                <p>Can allow us to send data over the server.</p>
+                <p>The method attribute defines the protocal we want to use when we submit the information from the form.</p>
             <li>What is the difference between a "POST" and a "GET"?</li>
                 <p>All information from form goes up to the search bar in the query string when we use a GET attribute. No information from our form tag is shown in the query string for POST attribute.</p>
         </ol>
