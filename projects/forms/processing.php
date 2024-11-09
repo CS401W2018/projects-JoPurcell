@@ -8,6 +8,11 @@
 <body>
     <main>
         <h1>Your account has been created. Thank you!</h1>
+        <p>Email: <?php print $_POST['email'] ?></p>
+        <p>First Name: <?php print $_POST['first'] ?></p>
+        <p>Last Name: <?php print $_POST['last'] ?></p>
+        <p>Password: <?php print $_POST['pass'] ?></p>
+
     </main>
 </body>
 </html>
