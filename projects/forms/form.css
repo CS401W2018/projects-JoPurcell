@@ -71,6 +71,10 @@ legend {
     width: 200px;
 }
 
+.form-row textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .check-row {
     display: flex;
     gap: 10px;
