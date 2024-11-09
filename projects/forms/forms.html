@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning About Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Forms Engagement</h1>
+    </header>
+    <nav>
+        <a href="#">Links</a>
+        <a href="#">Links</a>
+        <a href="#">Links</a>
+    </nav>
+    <main>
+        <form action="processing.html" method="post">
+            <fieldset>
+                <legend>Account Creation</legend>
+                <div class="form-row">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="first" placeholder="First Name" id="fname" required>
+                </div>
+                <div class="form-row">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="last" id="lname" placeholder="Last Name" required>
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="pass" id="pass" required>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label>
+                        <input type="checkbox" name="check">
+                        Remember Me
+                    </label>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    Year
+                    <label><input type="radio" name="year" value="Freshman">Freshman</label>
+                    <label><input type="radio" name="year" value="Sophomore">Sophomore</label>
+                    <label><input type="radio" name="year" value="Junior">Junior</label>
+                    <label><input type="radio" name="year" value="Senior">Senior</label>
+                </div>
+                <div class="form-row">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="blank"></option>
+                        <option value="hawaii">Hawaii</option>
+                        <option value="california">California</option>
+                        <option value="utah">Utah</option>
+                        <option value="florida">Florida</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <div class="enlarger"></div>
+                        <input type="submit">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        &copy; Joseph Purcell, 2024
+    </footer>
+</body>
+</html>
