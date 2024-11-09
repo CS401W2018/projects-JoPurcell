@@ -1,5 +1,35 @@
 body {
+    background-color: #800000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header h1 {
+    background-color: #330000;
+    border: 3px solid indianred;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: #330000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
 }
 
 fieldset {
@@ -19,10 +49,21 @@ legend {
     margin-top: 5px;
 }
 
-.form-row input {
+.form-row input:not([type='submit']), select {
     background-color: lightblue;
     border-radius: 2px;
     padding: 3px;
+}
+
+.form-row [type='submit'] {
+    background-color: magenta;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.form-row input:focus {
+    background-color: white;
 }
 
 .form-row label {
@@ -41,7 +82,25 @@ legend {
 }
 
 @media only screen and (max-width: 600px) {
-    .form-row {
+    .form-row, .check-row {
         flex-direction: column;
     }
+
+    .form-row label {
+        text-align: left;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        border: thin solid white;
+    }
+
+    nav a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
 }
