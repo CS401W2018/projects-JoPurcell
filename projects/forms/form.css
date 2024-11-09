@@ -49,9 +49,9 @@ legend {
     margin-top: 5px;
 }
 
-.form-row input:not([type='submit']), select {
+.form-row input:not([type='submit']), select, textarea {
     background-color: lightblue;
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 3px;
 }
 
@@ -62,7 +62,7 @@ legend {
     padding: 5px;
 }
 
-.form-row input:focus {
+.form-row input:focus, select:focus, textarea:focus {
     background-color: white;
 }
 
@@ -79,6 +79,11 @@ legend {
 .spacer {
     width: 150px;
     text-align: right;
+}
+
+footer {
+    color: gray;
+    margin-top: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -102,5 +107,4 @@ legend {
         color: white;
         text-decoration: none;
     }
-
 }
