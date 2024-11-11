@@ -105,6 +105,7 @@ footer {
 
     nav a {
         border: thin solid white;
+        padding: 20px;
     }
 
     nav a:hover {
