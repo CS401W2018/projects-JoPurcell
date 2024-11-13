@@ -16,7 +16,7 @@
         <a href="#">Links</a>
     </nav>
     <main>
-        <form action="processing.html" method="post">
+        <form action="processing.html" method="post" id="myForm">
             <fieldset>
                 <legend>Account Creation</legend>
                 <div class="form-row">
@@ -77,5 +77,11 @@
     <footer>
         &copy; Joseph Purcell, 2024
     </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function{event}) {
+            event.preventDefault();
+            alert("You have submitted the form!")
+        }
+    </script>
 </body>
 </html>
