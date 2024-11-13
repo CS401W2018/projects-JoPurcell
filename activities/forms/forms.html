@@ -80,6 +80,13 @@
     <script>
         document.getElementById('myForm').addEventListener('submit',function(event) {
             event.preventDefault();
+            const firstname = document.getElementById('fname').value;
+            const lastname = document.getElementById('lname').value;
+            const formData = {
+                firstname: firstname,
+                lastname: lastname
+            }
+            console.log(formData)
             alert("You have submitted the form!")
         })
     </script>
