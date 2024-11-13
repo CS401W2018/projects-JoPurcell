@@ -7,6 +7,10 @@ fieldset {
     box-shadow: 5px 3px 2px gray;
 }
 
+nav {
+    margin-bottom: 20px;
+}
+
 legend {
     background-color: aqua;
     border: thin solid black;
