@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>JavaScript Engagement</h1>
+        <h1>AJAX Engagement</h1>
     </header>
     <nav>
         <a href="#">Links</a>
@@ -21,15 +21,15 @@
                 <legend>Account Creation</legend>
                 <div class="form-row">
                     <label for="fname">First Name:</label>
-                    <input type="text" name="first" placeholder="First Name" id="fname" required>
+                    <input type="text" name="first" placeholder="First Name" id="fname">
                 </div>
                 <div class="form-row">
                     <label for="lname">Last Name:</label>
-                    <input type="text" name="last" id="lname" placeholder="Last Name" required>
+                    <input type="text" name="last" id="lname" placeholder="Last Name">
                 </div>
                 <div class="form-row">
                     <label for="pass">Password:</label>
-                    <input type="password" name="pass" id="pass" required>
+                    <input type="password" name="pass" id="pass">
                 </div>
                 <div class="check-row">
                     <div class="spacer"></div>
@@ -78,10 +78,27 @@
             event.preventDefault();
             const firstname = document.getElementById('fname').value;
             const lastname = document.getElementById('lname').value;
+            
             const formData = {
                 firstname: firstname,
                 lastname: lastname
             }
+
+            if (!firstname || !lastname) {
+                alert('You must give a first and last name');
+                return;
+            }
+
+            const xhr = XMLHttpRequest();
+            xhr.open("POST", "submit.json", true);
+            xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            xhr.onreadystatechange = function () {
+                if (xhr.readystate === 4 && xhr.status === 200) {
+                    alert('Form submitted successfully.');
+                } else if (xhr.readystate === 4) {
+                    alert('Error submitting form.');
+                }
+            };
             console.log(formData)
             alert("You have submitted the form!")
         })
