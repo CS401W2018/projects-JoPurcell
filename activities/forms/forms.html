@@ -16,6 +16,7 @@
         <a href="#">Links</a>
     </nav>
     <main>
+        <div id="message"></div>
         <form action="processing.html" method="post" id="myForm">
             <fieldset>
                 <legend>Account Creation</legend>
@@ -65,43 +66,14 @@
         <h3>Engagement Questions</h3>
         <ol>
             <li>What is AJAX?</li>
-                A programming language that was made to run inside the browsers of a PC. It is used to make the front-end of software interactive.
+                A set  of technologies that make web pages more interactive.
             <li>Why do you put your JS Code in a separate file?</li>
-                It can run in the browser of the computer or 'it runs in the DOM'. We can also run the JavaScript through 'Nodejs.'
+
         </ol>
     </main>
     <footer>
         &copy; Joseph Purcell, 2024
     </footer>
-    <script>
-        document.getElementById('myForm').addEventListener('submit',function(event) {
-            event.preventDefault();
-            const firstname = document.getElementById('fname').value;
-            const lastname = document.getElementById('lname').value;
-            
-            const formData = {
-                firstname: firstname,
-                lastname: lastname
-            }
-
-            if (!firstname || !lastname) {
-                alert('You must give a first and last name');
-                return;
-            }
-
-            const xhr = XMLHttpRequest();
-            xhr.open("POST", "submit.json", true);
-            xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-            xhr.onreadystatechange = function () {
-                if (xhr.readystate === 4 && xhr.status === 200) {
-                    alert('Form submitted successfully.');
-                } else if (xhr.readystate === 4) {
-                    alert('Error submitting form.');
-                }
-            };
-            console.log(formData)
-            alert("You have submitted the form!")
-        })
-    </script>
+    <script src="form.js"></script>
 </body>
 </html>
