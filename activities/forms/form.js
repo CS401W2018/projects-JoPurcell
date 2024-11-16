@@ -9,7 +9,12 @@ document.getElementById('myForm').addEventListener('submit',function(event) {
     }
 
     if (!firstname || !lastname) {
-        alert('You must give a first and last name')
+        alert('You must give a first and last name');
+        return;
+    }
+
+    if (!age || age < 18) {
+        alert('You must be 18 or older to submit this form');
         return;
     }
 
