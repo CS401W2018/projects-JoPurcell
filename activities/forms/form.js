@@ -1,7 +1,8 @@
-document.getElementById('myForm').addEventListener('submit',function(event) {
+document.getElementById('myForm').addEventListener('submit', function(event) {
     event.preventDefault();
     const firstname = document.getElementById('fname').value;
     const lastname = document.getElementById('lname').value;
+    const age = document.getElementById('age').value;
     
     const formData = {
         firstname: firstname,
