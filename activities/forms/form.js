@@ -6,8 +6,10 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     
     const formData = {
         firstname: firstname,
-        lastname: lastname
-    }
+        lastname: lastname,
+        password: document.getElementById('pass').value,
+        state: document.getElementById('state').value
+    };
 
     if (!firstname || !lastname) {
         alert('You must give a first and last name');
@@ -19,14 +21,14 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         return;
     }
 
-    const xhr = XMLHttpRequest();
+    const xhr = new XMLHttpRequest();
     xhr.open("POST", "submit.json", true);
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xhr.onreadystatechange = function () {
         if (xhr.readystate === 4 && xhr.status === 200) {
-            message = JSON.parse(xhr.responseText)
-            document.getElementById('message').innerHTML = response.message;
-            document.getElementById('myForm').innerHTML = "";
+            const response = JSON.parse(xhr.responseText)
+            document.getElementById("message").innerHTML = response.message;
+            document.getElementById("myForm").innerHTML = "";
         } else if (xhr.readystate === 4) {
             alert('Error submitting form.');
         }
