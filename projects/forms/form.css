@@ -92,7 +92,7 @@ footer {
 
 #message {
     background-color: beige;
-    width: 250px;
+    width: 300px;
 }
 
 @media only screen and (max-width: 600px) {
