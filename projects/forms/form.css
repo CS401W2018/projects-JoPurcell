@@ -90,6 +90,11 @@ footer {
     margin-top: 10px;
 }
 
+#message {
+    background-color: beige;
+    width: 250px;
+}
+
 @media only screen and (max-width: 600px) {
     .form-row, .check-row {
         flex-direction: column;
