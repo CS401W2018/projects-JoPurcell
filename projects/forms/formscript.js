@@ -3,6 +3,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     const firstname = document.getElementById('fname').value;
     const lastname = document.getElementById('lname').value;
     const age = document.getElementById('age').value;
+    const password = document.getElementById('pass').value;
     
     const formData = {
         firstname: firstname,
@@ -18,6 +19,11 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
 
     if (!age || age < 18) {
         alert('You must be 18 or older to submit this form');
+        return;
+    }
+
+    if (!password) {
+        alert('Please enter a valid password.');
         return;
     }
 
