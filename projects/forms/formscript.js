@@ -40,6 +40,5 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         }
     };
     xhr.send(JSON.stringify(formData));
-
-    console.log(formData)
+    console.log(formData);
 })
