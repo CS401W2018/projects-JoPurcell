@@ -23,7 +23,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     const formData = {
         firstname: firstname,
         lastname: lastname,
-        password: document.getElementById('pass').value,
+        password: password,
         state: document.getElementById('state').value
     };
 
