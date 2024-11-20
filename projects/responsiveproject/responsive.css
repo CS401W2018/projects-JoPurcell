@@ -20,7 +20,7 @@ aside h3 {
     align-content: space-around;
     display: flex;
     flex-flow: column wrap;
-    float: right; 
+    float: left; 
     margin: auto 15px auto 15px;
     padding-left: 15px;
     padding-right: 15px;
