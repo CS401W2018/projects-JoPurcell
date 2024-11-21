@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(141, 37, 215);
+    background-image: url(whitebg.jpg);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -13,6 +13,7 @@ header h1 {
 }
 
 nav {
+    background-color: aqua;
     display: flex;
     justify-content: center;
 }
@@ -26,7 +27,8 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: red;
+    text-decoration: underline;
 }
 
 .current {
@@ -64,15 +66,6 @@ aside h3 {
 figcaption {
     font-size: small;
     font-style: italic;
-}
-
-nav {
-    background-color: burlywood;
-}
-
-nav a:hover {
-    color: white;
-    text-decoration: underline;
 }
 
 body {
