@@ -35,34 +35,6 @@ nav a:hover {
     color: blue;
 }
 
-h1, h2, h3 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-aside {
-    background-color: darkgray;
-    display: block;
-    width: 300px;
-}
-
-aside img {
-    width: 250px;
-}
-
-aside h3 {
-    text-align: center;
-}
-
-#beside {
-    align-content: space-around;
-    display: flex;
-    flex-flow: column wrap;
-    float: left; 
-    margin: auto 15px auto 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 figcaption {
     font-size: small;
     font-style: italic;
