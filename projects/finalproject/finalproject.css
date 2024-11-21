@@ -1,8 +1,29 @@
 body {
+    background-color: indigo;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header h1 {
+    background-color: red;
+    border: 5px solid black;
+    color: blue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
+nav {
+    display: block;
+    background-color: purple;
+}
+
+nav a {
+    color: red;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.current {
+    color: yellow;
+}
