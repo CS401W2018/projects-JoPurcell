@@ -1,5 +1,5 @@
 body {
-    background-image: url(whitebg.jpg);
+    background-image: url(background.jpg);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -93,7 +93,7 @@ footer a:hover {
     }
  
     aside {
-        background-color: white;
+        background-color: beige;
         margin: 5px 5px 10px 5px;
         width: 100%;
     }
