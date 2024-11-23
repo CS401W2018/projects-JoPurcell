@@ -41,6 +41,21 @@ nav a:hover {
     transform: rotate(-10deg);
 }
 
+aside {
+    background-color: beige;
+    margin: 5px 5px 10px 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+.sidebar {
+    display: flex;
+    flex-flow: column wrap;
+    float: left;
+    justify-content: center;
+    margin: auto;
+    width: 350px;
+}
+
 figcaption {
     font-size: small;
     font-style: italic;
@@ -91,6 +106,7 @@ footer a:hover {
     border: thin solid black;
     border-collapse: collapse;
     border-spacing: 0;
+    float: right;
     margin-top: 20px;
     text-align: center;
 }
@@ -136,10 +152,6 @@ footer a:hover {
     aside {
         background-color: beige;
         margin: 5px 5px 10px 5px;
-        width: 100%;
-    }
-
-    aside img {
         width: 100%;
     }
 }
