@@ -3,6 +3,10 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header h1 {
     background-color: red;
     border: 5px solid black;
@@ -12,7 +16,7 @@ header h1 {
     margin: 0;
     text-align: center;
 }
-
+/*Navigation Bar*/
 nav {
     background-color: aliceblue;
     display: flex;
@@ -31,6 +35,7 @@ nav a:hover {
     color: red;
     text-decoration: underline;
 }
+/*End of Navigation*/
 
 .current {
     color: blue;
@@ -41,28 +46,9 @@ nav a:hover {
     transform: rotate(-10deg);
 }
 
-aside {
-    background-color: beige;
-    margin: 5px 5px 10px 5px;
-    padding: 5px 15px 5px 15px;
-}
-
-.sidebar {
-    display: flex;
-    flex-flow: column wrap;
-    float: left;
-    justify-content: center;
-    margin: auto;
-    width: 350px;
-}
-
 figcaption {
     font-size: small;
     font-style: italic;
-}
-
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
@@ -98,6 +84,7 @@ footer a:hover {
     color: black;
 }
 
+/*Table CSS*/
 .information caption {
     background-color: blue;
 }
@@ -106,7 +93,6 @@ footer a:hover {
     border: thin solid black;
     border-collapse: collapse;
     border-spacing: 0;
-    float: right;
     margin-top: 20px;
     text-align: center;
 }
@@ -133,6 +119,7 @@ footer a:hover {
 .information tbody tr:nth-child(odd) {
     background-color: blue;
 }
+/*End of table CSS*/
 
 @media only screen and (max-width: 700px) {
     nav {
