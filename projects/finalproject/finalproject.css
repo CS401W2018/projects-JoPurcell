@@ -6,6 +6,7 @@ body {
 header h1 {
     background-color: red;
     border: 5px solid black;
+    border-radius: 5px;
     color: blue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
@@ -13,7 +14,7 @@ header h1 {
 }
 
 nav {
-    background-color: aqua;
+    background-color: aliceblue;
     display: flex;
     justify-content: center;
 }
@@ -33,6 +34,11 @@ nav a:hover {
 
 .current {
     color: blue;
+}
+
+#flag {
+    margin-top: 10px;
+    transform: rotate(-10deg);
 }
 
 figcaption {
@@ -100,7 +106,7 @@ footer a:hover {
 }
 
 .information tfoot td {
-    background-color: gray;
+    background-color: red;
     font-style: italic;
 }
 
@@ -111,12 +117,6 @@ footer a:hover {
 .information tbody tr:nth-child(odd) {
     background-color: blue;
 }
-
-.information tbody tr:nth-child(8) {
-    background-color: black;
-    color: white;
-}
-
 
 @media only screen and (max-width: 700px) {
     nav {
