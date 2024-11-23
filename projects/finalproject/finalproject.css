@@ -77,6 +77,47 @@ footer a:hover {
     color: black;
 }
 
+.information caption {
+    background-color: blue;
+}
+
+.information {
+    border: thin solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.information td, .information th {
+    border: thin solid black;
+    padding: 5px;
+}
+
+.information tfoot, .information thead {
+    background-color: black;
+    color: white;
+}
+
+.information tfoot td {
+    background-color: gray;
+    font-style: italic;
+}
+
+.information tbody tr:nth-child(even){
+    background-color: white;
+}
+
+.information tbody tr:nth-child(odd) {
+    background-color: blue;
+}
+
+.information tbody tr:nth-child(8) {
+    background-color: black;
+    color: white;
+}
+
+
 @media only screen and (max-width: 700px) {
     nav {
         flex-direction: column;
