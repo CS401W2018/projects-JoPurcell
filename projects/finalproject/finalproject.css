@@ -97,10 +97,6 @@ figcaption {
     width: 100%;
 }
 
-.end {
-    clear: both;
-}
-
 /*Table CSS*/
 .information caption {
     background-color: blue;
@@ -138,6 +134,76 @@ figcaption {
 }
 /*End of table CSS*/
 
+/*Form CSS*/
+fieldset {
+    background-color: orangered;
+    box-shadow: 5px 3px 2px gray;
+}
+
+legend {
+    background-color: blue;
+    border: thin solid black;
+    padding: 10px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.form-row input:not([type='submit']), select, textarea {
+    background-color: lightblue;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.form-row [type='submit'] {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+
+.form-row input:focus, select:focus, textarea:focus {
+    background-color: white;
+}
+
+.form-row label {
+    text-align: right;
+    width: 200px;
+}
+
+.form-row textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.check-row {
+    display: flex;
+    gap: 10px;
+}
+
+.spacer {
+    width: 150px;
+    text-align: right;
+}
+
+footer {
+    color: gray;
+    margin-top: 10px;
+}
+
+#message {
+    background-color: beige;
+    font-size: x-large;
+    width: 300px;
+}
+/*End of Form css*/
+
+.end {
+    clear: both;
+}
+
 footer {
     font-style: italic;
 }
@@ -158,8 +224,7 @@ footer {
     }
  
     aside {
-        background-color: beige;
-        margin: 5px 5px 10px 5px;
+        margin: auto;
         width: 100%;
     }
 }
