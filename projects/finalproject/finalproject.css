@@ -39,6 +39,25 @@ nav a:hover {
 }
 /*End of Navigation*/
 
+/*Aside tag*/
+aside {
+    background-color: gray;
+    display: block;
+    font-style: italic;
+    width: 250px;
+}
+
+#beside {
+    align-content: space-evenly;
+    display: flex;
+    flex-flow: column wrap;
+    float: left;    
+    margin: 15px 10px 15px 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*Aside tag ends*/
+
 .current {
     color: blue;
 }
