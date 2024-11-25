@@ -32,12 +32,11 @@ nav a {
     padding: 10px 50px;
     text-align: center;
     text-decoration: none;
-    transition: background-color 5s ease-in
-
+    transition: background-color 5s ease-in;
 }
 
 nav a:hover {
-    background-color: indigo;
+    background-color: magenta;
     color: red;
     text-decoration: underline;
 }
@@ -45,7 +44,6 @@ nav a:hover {
 .current {
     color: blue;
 }
-
 
 /*End of Navigation*/
 
