@@ -1,9 +1,10 @@
 body {
     background-image: url(background.jpg);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
 }
 
-h3, h4 {
+h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
@@ -85,7 +86,7 @@ figcaption {
     display: flex;
     flex-flow: row-reverse nowrap;
     float: left;
-    gap: 30px;
+    gap: 35px;
     justify-content: space-between;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -94,7 +95,7 @@ figcaption {
 }
 
 .card img {
-    width: 100%;
+    width: 250px;
 }
 
 /*Table CSS*/
@@ -224,6 +225,11 @@ footer {
     }
  
     aside {
+        margin: auto;
+        width: 100%;
+    }
+
+    .information{
         margin: auto;
         width: 100%;
     }
