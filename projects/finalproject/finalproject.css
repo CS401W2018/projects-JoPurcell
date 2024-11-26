@@ -44,7 +44,6 @@ nav a:hover {
 .current {
     color: blue;
 }
-
 /*End of Navigation*/
 
 /*Aside tag*/
@@ -84,7 +83,7 @@ figcaption {
 }
 
 .card {
-    background-color: salmon;
+    background-color: lightblue;
     border: 2px solid white;
     box-shadow: 5px 2px 8px black;
     display: flex;
@@ -103,6 +102,7 @@ figcaption {
 }
 
 /*Table CSS*/
+
 .information caption {
     background-color: blue;
 }
