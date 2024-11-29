@@ -59,7 +59,7 @@ aside {
     display: flex;
     flex-flow: column wrap;
     float: left;    
-    margin: 15px 10px 15px 15px;
+    margin: 3px 10px 15px 15px;
     padding-left: 15px;
     padding-right: 15px;
 }
