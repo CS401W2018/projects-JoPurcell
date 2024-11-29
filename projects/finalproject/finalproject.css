@@ -87,7 +87,7 @@ figcaption {
     border: 2px solid white;
     box-shadow: 5px 2px 8px black;
     display: flex;
-    flex-flow: row-reverse nowrap;
+    flex-flow: column wrap-reverse;
     float: left;
     gap: 35px;
     justify-content: space-between;
@@ -213,7 +213,7 @@ footer {
     font-style: italic;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     nav {
         flex-direction: column;
     }
@@ -224,6 +224,7 @@ footer {
     }
 
     .card {
+        flex-wrap: wrap;
         margin: auto auto 20px auto;
         width: 100%;
     }
@@ -231,6 +232,10 @@ footer {
     aside {
         margin: auto;
         width: 100%;
+    }
+
+    #beside {
+        margin: auto;
     }
 
     .information{
