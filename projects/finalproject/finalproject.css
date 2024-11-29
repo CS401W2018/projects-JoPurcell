@@ -70,6 +70,8 @@ aside {
     transform: rotate(-10deg);
 }
 
+/*Figure CSS*/
+
 figcaption {
     font-size: small;
     font-style: italic;
@@ -219,7 +221,7 @@ footer {
     }
 
     nav a {
-        border-bottom: thin solid black;
+        border: thin solid black;
         text-decoration: underline;
     }
 
