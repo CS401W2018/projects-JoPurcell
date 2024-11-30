@@ -1,18 +1,21 @@
 document.getElementById('myPostcard').addEventListener('submit', function(event) {
     event.preventDefault();
-    const firstname = document.getElementById('fname').value;
-    const lastname = document.getElementById('lname').value;
-    const age = document.getElementById('age').value;
-    const password = document.getElementById('pass').value;
+    const sender = document.getElementById('sender').value;
+    const receiver = document.getElementById('receiver').value;
+    const date = document.getElementById('day').value;
     
-    if (!firstname || !lastname) {
-        alert('You must give a first and last name');
+    if (!sender || !receiver) {
+        alert('You must give a valid sender and receiver name.');
         return;
     }
 
+    if (!date) {
+        alert("You must input today's date.")
+    }
+
     const formData = {
-        firstname: firstname,
-        lastname: lastname,
+        sender: sender,
+        receiver: receiver,
     };
 
     const xhr = new XMLHttpRequest();

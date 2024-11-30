@@ -80,7 +80,7 @@ aside {
 
 #shoutout {
     text-align: right;
-    transform: skew(-20deg);
+    transform: skew(-30deg);
 }
 
 figcaption {
@@ -146,13 +146,22 @@ figcaption {
 
 /*Form CSS*/
 fieldset {
-    background-color: orangered;
+    background-image: url(postimage.jpg);
+    background-repeat: no-repeat;
     border: thick dashed black;
     box-shadow: 5px 3px 2px gray;
+    color: white;
+    width: fit-content;
+}
+
+fieldset h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    transform: skew(-20deg);
 }
 
 legend {
-    background-color: blue;
+    background-color: orangered;
     border: thin solid black;
     padding: 10px;
 }
@@ -160,13 +169,18 @@ legend {
 .form-row {
     display: flex;
     gap: 10px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .form-row input:not([type='submit']), select, textarea {
     background-color: lightblue;
     border-radius: 4px;
     padding: 3px;
+}
+
+.form-row textarea {
+    height: 150px;
+    width: 350px;
 }
 
 .form-row [type='submit'] {
@@ -188,11 +202,6 @@ legend {
 .form-row textarea {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-/*.check-row {
-    display: flex;
-    gap: 10px;
-}*/
 
 .spacer {
     width: 150px;
@@ -234,6 +243,10 @@ footer {
  
     aside {
         margin: auto;
+        width: 100%;
+    }
+
+    fieldset {
         width: 100%;
     }
 
