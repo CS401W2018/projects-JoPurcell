@@ -10,7 +10,8 @@ document.getElementById('myPostcard').addEventListener('submit', function(event)
     }
 
     if (!date) {
-        alert("You must input today's date.")
+        alert("You must input today's date.");
+        return;
     }
 
     const formData = {
