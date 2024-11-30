@@ -22,13 +22,10 @@
     <main>
         <h2>Create your own Postcard!</h2>
         <div id="message"></div>
-        <form action="processing.html" method="post" id="myForm">
+        <form action="processing.html" method="post" id="myPostcard">
             <fieldset>
                 <legend>Postcard</legend>
-                <div class="form-row">
-                    <label for="email">Email Address:</label>
-                    <input type="email" name="email" id="email" placeholder="someone@gmail.com">
-                </div>
+                <h2>My Trip to Samoa!</h2>
                 <div class="form-row">
                     <label for="fname">First Name:</label>
                     <input type="text" name="first" placeholder="First Name" id="fname">
@@ -42,37 +39,8 @@
                     <input type="number" name="agenumber" id="age">
                 </div>
                 <div class="form-row">
-                    <label for="pass">Password:</label>
-                    <input type="password" name="pass" id="pass">
-                </div>
-                <div class="check-row">
-                    <div class="spacer"></div>
-                    Year
-                    <label><input type="radio" name="year" value="Freshman" checked>Freshman</label>
-                    <label><input type="radio" name="year" value="Sophomore">Sophomore</label>
-                    <label><input type="radio" name="year" value="Junior">Junior</label>
-                    <label><input type="radio" name="year" value="Senior">Senior</label>
-                </div>
-                <div class="form-row">
-                    <label for="state">State: </label>
-                    <select name="state" id="state">
-                        <option value="hi">Hawaii</option>
-                        <option value="ca">California</option>
-                        <option value="ut">Utah</option>
-                        <option value="fl">Florida</option>
-                        <option value="oth">Other</option>
-                    </select>
-                </div>
-                <div class="form-row">
-                    <label for="information">About Me: </label>
+                    <label for="information">About My Trip: </label>
                     <textarea name="information" id="information" placeholder="Fun facts about you"></textarea>
-                </div>
-                <div class="check-row">
-                    <div class="spacer"></div>
-                    <label>
-                        <input type="checkbox" name="check" checked>
-                        Remember Me
-                    </label>
                 </div>
                 <div class="form-row">
                     <div class="spacer"></div>
@@ -85,6 +53,5 @@
     <footer>
         &COPY; Joseph Purcell, 2024
     </footer>
-
 </body>
 </html>
