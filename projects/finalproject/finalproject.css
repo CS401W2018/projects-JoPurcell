@@ -183,6 +183,7 @@ legend {
 }
 
 .form-row textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 150px;
     width: 350px;
 }
@@ -201,10 +202,6 @@ legend {
 .form-row label {
     text-align: right;
     width: 200px;
-}
-
-.form-row textarea {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .spacer {
@@ -253,7 +250,11 @@ footer {
     }
 
     fieldset {
-        width: 100%;
+        width: 90%;
+    }
+
+    .form-row textarea {
+        width: 350px;
     }
 
     #beside {
@@ -264,4 +265,5 @@ footer {
         margin: auto;
         width: 100%;
     }
+
 }
