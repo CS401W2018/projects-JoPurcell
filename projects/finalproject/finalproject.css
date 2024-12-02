@@ -237,10 +237,14 @@ footer {
         text-decoration: underline;
     }
 
+    iframe {
+        width: 95%;
+    }
+
     .card {
         flex-flow: column nowrap;
         margin: auto auto 20px auto;
-        width: 100%;
+        width: 95%;
     }
  
     aside {
@@ -253,7 +257,7 @@ footer {
     }
 
     #beside {
-        margin: auto;
+        width: 90%;
     }
 
     .information{
