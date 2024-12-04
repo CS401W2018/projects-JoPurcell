@@ -250,11 +250,11 @@ footer {
     }
 
     fieldset {
-        width: 95%;
+        width: 60%;
     }
 
     .form-row textarea, input {
-        width: 150px;
+        width: 95%;
     }
 
     #beside {
