@@ -191,7 +191,7 @@ legend {
     padding: 5px;
 }
 
-.form-row input:focus, select:focus, textarea:focus {
+.form-row input:focus, textarea:focus {
     background-color: white;
 }
 
@@ -234,6 +234,10 @@ footer {
         width: 95%;
     }
 
+    figure img {
+        width: 95%;
+    }
+
     .card {
         flex-flow: column nowrap;
         margin: auto auto 20px auto;
@@ -246,11 +250,11 @@ footer {
     }
 
     fieldset {
-        width: 90%;
+        width: 95%;
     }
 
-    .form-row textarea {
-        width: 350px;
+    .form-row textarea, input {
+        width: 150px;
     }
 
     #beside {
@@ -261,5 +265,4 @@ footer {
         margin: auto;
         width: 100%;
     }
-
 }
